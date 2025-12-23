@@ -5,19 +5,19 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-//These are built-in, value types
+// These are built-in, value types
 public class PrimitiveDataTypes {
     
     /** Numeric primitives **/
     
-    //Integers
+    // Integers
     private byte  Raw_Binary_data;         // -128 to 127
     private short Compact_Structured_data; // -32768 to 32767
     private int   General_purpose_data;    // -2,147,483,648 to 2,147,483,647
     private long  Large_Integers;          // -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
     
     
-    //Floating-point
+    // Floating-point
     private float Memory_Efficient_decimals; // ~7 digits
     private double Default_Math_decimals;    // ~15 digits
     
@@ -98,3 +98,4 @@ public class PrimitiveDataTypes {
     
     
 }
+
